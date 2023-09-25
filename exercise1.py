@@ -50,9 +50,7 @@ LotstoGrams = 13.3
 # Convert
 total_grams = ((((talents * TalentToPound) + pounds) * PoundToLots) + lots) * LotstoGrams
 kilogram = total_grams // 1000
-
 gram = total_grams - kilogram * 1000
-convertToKilogram = total_grams / 1000
 # Print out the results
 print(f"The mass is approximately {kilogram:.1f} kilograms and {gram:.2f} grams.")
-print(f"The mass is approximately {convertToKilogram:.5f} kilograms. or {total_grams:.2f} grams")
+
