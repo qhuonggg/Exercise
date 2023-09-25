@@ -53,4 +53,3 @@ kilogram = total_grams // 1000
 gram = total_grams - kilogram * 1000
 # Print out the results
 print(f"The mass is approximately {kilogram:.1f} kilograms and {gram:.2f} grams.")
-
